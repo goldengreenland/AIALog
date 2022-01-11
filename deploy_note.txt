@@ -1,0 +1,48 @@
+mmazeusdb0001.database.windows.net
+
+az login
+az aks get-credentials --name aks-mm01-sea-u-apps01 --resource-group rg-mm01-sea-u-apps01-aks01
+
+az acr import --name acrmm01seanshared01 --source docker.io/aunghtetlin/wellness-api:20210630_v1 --image mm/wellness/api/wellness:20210630_v1
+
+kubectl get all -n nsp-mm-u-member
+kubectl delete -f aia-wellness-api-uat.yaml -n nsp-mm-u-member
+kubectl create -f aia-wellness-api-uat.yaml -n nsp-mm-u-member
+
+kubectl delete -f aia-wellness-ingress_uat.yml -n nsp-mm-u-member
+kubectl cp nsp-mm-p-member/wellness-api-9f78984cb-7tp4k:logs ./logs/20210622
+
+
+
+-------Prod Deploy Command-----
+
+az aks get-credentials --name aks-mm01-sea-p-apps01 --resource-group rg-mm01-sea-p-apps01-aks01
+az acr import --name acrmm01seanshared01 --source docker.io/oooolatt/wellness-api:20211215 --image mm/wellness/api/wellness:20211215
+
+
+kubectl get all -n nsp-mm-p-member
+kubectl delete -f aia-wellness-api-prod.yaml -n nsp-mm-p-member
+kubectl create -f aia-wellness-api-prod.yaml -n nsp-mm-p-member
+
+kubectl create -f aia-wellness-web-prod.yaml -n nsp-mm-p-member
+
+kubectl cp nsp-mm-p-member/wellness-api-86dd778978-27xd6:logs ./logs/20210708
+
+---------DR Deploy Command--------
+az aks get-credentials --name aks-mm01-eas-r-apps01 --resource-group rg-mm01-eas-r-apps01-aks01
+kubectl get pods -n nsp-mm-r-member
+az acr import --name acrmm01seanshared01 --source docker.io/oooolatt/wellness-api:20210909 --image mm/wellness/api/wellness:20210909
+
+
+kubectl get all -n nsp-mm-r-member
+kubectl delete -f aia-wellness-api-dr.yaml -n nsp-mm-r-member
+kubectl create -f aia-wellness-api-dr.yaml -n nsp-mm-r-member
+
+kubectl apply -f aia-wellness-web-dr.yaml -n nsp-mm-r-member
+kubectl apply -f aia-wellness-api-dr.yaml -n nsp-mm-r-member
+
+kubectl logs wellness-api-54577bfd67-6jn4j -n nsp-mm-r-member
+
+kubectl get ingress -n nsp-mm-r-member
+
+kubectl -n nsp-mm-r-member get services -o wide -w wellness-api-ingress

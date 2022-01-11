@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wellness-api
+  namespace: nsp-mm-u-member 
+spec:
+  selector:
+      matchLabels:
+        app-name: wellness-api-uat
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app-name: wellness-api-uat
+    spec:
+      containers:
+        - name: wellness-api
+          image: acrmm01seanshared01.azurecr.io/mm/wellness/api/wellness:20211215
+          ports:
+            - containerPort: 8081
+          volumeMounts:
+            - name: secrets-store-inline
+              mountPath: "/mnt/secrets-store"
+              readOnly: true
+          env:
+          - name: api.root.url
+            value: https://uat.aia.com.mm/api/
+          - name: db_server
+            value: mmazeusdb0001.database.windows.net
+          - name: db_name
+            value: WELMBADATUSDB01
+          - name: stsurl
+            value: https://login.microsoftonline.com/7f2c1900-9fd4-4b89-91d3-79a649996f0a
+          - name: clientSecret
+            valueFrom:
+              secretKeyRef:
+                name: appvlt01
+                key: sp_dbwellness_secret
+          - name: clientId
+            valueFrom:
+              secretKeyRef:
+                name: appvlt01
+                key: sp_dbwellness_id
+      volumes:
+        - name: secret-volume
+          secret:
+            secretName: tls-aia-internal-ca
+        - name: secrets-store-inline
+          csi:
+            driver: secrets-store.csi.k8s.io
+            readOnly: true
+            volumeAttributes:
+              secretProviderClass: "spc-mm-u-member"
+            nodePublishSecretRef:
+              name: "kvsecretcreds"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wellness-api-service
+  namespace: nsp-mm-u-member
+spec:
+    type: ClusterIP
+    ports:
+    - port: 8081
+    selector:
+      app-name: wellness-api-uat
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+	name: wellness-api-ingress
+	namespace: nsp-mm-u-member
+	annotations:
+		kubernetes.io/ingress.class: nginx
+		nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /api/$2
+    nginx.ingress.kubernetes.io/proxy-body-size: 10m
+	spec:
+    tls:
+    - hosts:
+      - uat.aia.com.mm
+      secretName: ingress-nginx-tls-u-mmwellnessingress
+		rules:
+    - host: uat.aia.com.mm
+    - http:
+        paths:
+        -backend:
+					  serviceName: wellness-api-service
+					  servicePort: 8081
+				  path: /api(/|$)(.*)
