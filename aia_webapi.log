@@ -1,961 +1,106 @@
-2022-03-29 00:00:52.746 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:00:52.892  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:00:53.156 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:00:53.270  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:00:53.308  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:00:53 MMT 2022
-2022-03-29 00:00:53.308  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:01:00.000  INFO wellness-api-8599b447f4-cfxrt --- [   scheduling-1] c.a.a.w.w.s.i.MemberChallengeService     : ****Challenge End*****
-2022-03-29 00:01:52.680 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:01:52.828  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:01:52.952 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:01:53.061  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:01:53.099  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:01:53 MMT 2022
-2022-03-29 00:01:53.099  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:02:52.664 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:02:52.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:02:53.184 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:02:53.299  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:02:53.338  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:02:53 MMT 2022
-2022-03-29 00:02:53.338  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:03:52.729 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:03:52.858  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:03:52.994 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:03:53.143  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:03:53.194  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:03:53 MMT 2022
-2022-03-29 00:03:53.195  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:04:52.676 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:04:52.818  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:04:53.002 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:04:53.110  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:04:53.148  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:04:53 MMT 2022
-2022-03-29 00:04:53.148  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:05:52.669 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:05:52.803  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:05:53.080 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:05:53.189  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:05:53.228  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:05:53 MMT 2022
-2022-03-29 00:05:53.228  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:06:52.686 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:06:52.837  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:06:52.996 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:06:53.111  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:06:53.150  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:06:53 MMT 2022
-2022-03-29 00:06:53.150  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:07:52.742 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:07:52.891  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:07:53.195 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:07:53.342  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:07:53.399  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:07:53 MMT 2022
-2022-03-29 00:07:53.400  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:08:52.681 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:08:52.806  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:08:52.930 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:08:53.052  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:08:53.092  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:08:53 MMT 2022
-2022-03-29 00:08:53.092  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:09:52.700 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:09:52.911  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:09:53.037 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:09:53.139  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:09:53.176  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:09:53 MMT 2022
-2022-03-29 00:09:53.176  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:10:52.679 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:10:52.815  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:10:53.071 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:10:53.191  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:10:53.229  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:10:53 MMT 2022
-2022-03-29 00:10:53.229  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:11:52.754 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:11:52.884  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:11:53.114 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:11:53.258  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:11:53.327  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:11:53 MMT 2022
-2022-03-29 00:11:53.327  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:12:52.805 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:12:52.947  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:12:53.522 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:12:53.626  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:12:53.663  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:12:53 MMT 2022
-2022-03-29 00:12:53.663  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:13:52.824 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:13:52.937  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:13:53.055 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:13:53.160  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:13:53.214  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:13:53 MMT 2022
-2022-03-29 00:13:53.215  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:14:52.810 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:14:52.951  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:14:53.245 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:14:53.357  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:14:53.412  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:14:53 MMT 2022
-2022-03-29 00:14:53.412  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:14:54.904 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:14:55.016  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:14:55.060  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-28 00:43:41.45, createdUserId=10264, updatedDate=2022-03-28 22:57:01.727, updatedUserId=10264, version=53, isDelete=false)
-2022-03-29 00:15:54.600 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:15:54.731  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:15:55.210 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:15:55.312  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:15:55.348  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:15:55 MMT 2022
-2022-03-29 00:15:55.348  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:16:54.642 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:16:54.814  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:16:54.986 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:16:55.148  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:16:55.187  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:16:55 MMT 2022
-2022-03-29 00:16:55.187  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:17:58.522 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:17:58.671  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:17:58.834 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:17:58.951  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:17:59.008  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:17:59 MMT 2022
-2022-03-29 00:17:59.008  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:18:59.812 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:18:59.935  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:19:00.052 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:19:00.220  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:19:00.262  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:19:00 MMT 2022
-2022-03-29 00:19:00.263  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:20:00.410 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:20:00.574  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:20:00.856 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:20:00.964  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:20:01.008  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:20:01 MMT 2022
-2022-03-29 00:20:01.008  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:21:00.480 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:21:00.661  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:21:00.972 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:21:01.096  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:21:01.135  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:21:01 MMT 2022
-2022-03-29 00:21:01.135  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:22:00.423 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:22:00.567  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:22:01.060 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:22:01.174  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:22:01.232  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:22:01 MMT 2022
-2022-03-29 00:22:01.232  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:23:00.413 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:23:00.536  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:23:00.677 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:23:00.785  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:23:00.825  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:23:00 MMT 2022
-2022-03-29 00:23:00.825  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:24:00.419 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:24:00.562  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:24:00.790 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:24:00.920  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:24:00.973  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:24:00 MMT 2022
-2022-03-29 00:24:00.973  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:25:00.451 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:25:00.594  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:25:00.721 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:25:00.832  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:25:00.874  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:25:00 MMT 2022
-2022-03-29 00:25:00.874  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:26:00.417 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:26:00.551  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:26:00.677 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:26:00.866  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:26:00.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:26:00 MMT 2022
-2022-03-29 00:26:00.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:27:00.440 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:27:00.568  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:27:00.893 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:27:01.005  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:27:01.050  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:27:01 MMT 2022
-2022-03-29 00:27:01.050  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:28:00.447 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:28:00.592  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:28:00.826 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:28:01.003  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:28:01.056  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:28:01 MMT 2022
-2022-03-29 00:28:01.056  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:29:00.441 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:29:00.566  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:29:00.705 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:29:00.825  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:29:00.866  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:29:00 MMT 2022
-2022-03-29 00:29:00.866  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:30:00.498 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:30:00.627  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:30:00.814 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:30:00.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:30:00.958  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:30:00 MMT 2022
-2022-03-29 00:30:00.958  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:31:00.441 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:31:00.588  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:31:00.813 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:31:00.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:31:00.957  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:31:00 MMT 2022
-2022-03-29 00:31:00.957  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:32:00.542 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:32:00.707  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:32:01.043 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:32:01.203  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:32:01.288  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:32:01 MMT 2022
-2022-03-29 00:32:01.288  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:33:00.448 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:33:00.581  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:33:00.857 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:33:00.964  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:33:01.001  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:33:01 MMT 2022
-2022-03-29 00:33:01.001  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:34:00.448 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:34:00.601  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:34:00.863 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:34:00.988  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:34:01.027  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:34:01 MMT 2022
-2022-03-29 00:34:01.027  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:35:00.451 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:35:00.631  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:35:00.947 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:35:01.052  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:35:01.100  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:35:01 MMT 2022
-2022-03-29 00:35:01.100  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:36:00.444 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:36:00.576  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:36:00.787 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:36:00.909  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:36:00.954  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:36:00 MMT 2022
-2022-03-29 00:36:00.954  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:37:00.452 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:37:00.576  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:37:00.706 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:37:00.820  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:37:00.859  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:37:00 MMT 2022
-2022-03-29 00:37:00.859  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:38:00.452 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:38:00.572  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:38:00.796 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:38:00.908  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:38:00.969  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:38:00 MMT 2022
-2022-03-29 00:38:00.969  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:39:00.453 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:39:00.622  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:39:00.863 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:39:00.983  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:39:01.031  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:39:01 MMT 2022
-2022-03-29 00:39:01.031  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:40:00.452 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:40:00.584  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:40:00.801 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:40:00.916  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:40:00.956  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:40:00 MMT 2022
-2022-03-29 00:40:00.956  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 00:41:00.465 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:41:00.600  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:41:00.721 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 00:41:00.834  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 00:41:00.877  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 00:41:00 MMT 2022
-2022-03-29 00:41:00.877  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:10:04.260 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:10:04.363  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.CustomDataSource             : get connection from super exception, re generate the access token begin
-2022-03-29 07:10:04.364  INFO wellness-api-8599b447f4-cfxrt --- [ool-44-thread-1] c.m.a.a.AuthenticationAuthority          : [Correlation ID: d5e23404-a095-4363-ba5f-b494ade13ddc] Instance discovery was successful
-2022-03-29 07:10:04.901  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:10:05.153 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:10:05.261  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:10:05.299  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:10:05 MMT 2022
-2022-03-29 07:10:05.299  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:11:03.874 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:11:04.003  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:11:04.142 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:11:04.281  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:11:04.321  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:11:04 MMT 2022
-2022-03-29 07:11:04.321  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:12:03.914 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:12:04.047  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:12:04.176 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:12:04.277  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:12:04.324  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:12:04 MMT 2022
-2022-03-29 07:12:04.324  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:13:03.942 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:13:04.055  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:13:04.181 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:13:04.292  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:13:04.336  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:13:04 MMT 2022
-2022-03-29 07:13:04.336  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:14:03.882 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:14:04.030  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:14:04.161 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:14:04.267  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:14:04.306  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:14:04 MMT 2022
-2022-03-29 07:14:04.306  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:15:03.887 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:15:04.022  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:15:04.156 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:15:04.285  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:15:04.324  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:15:04 MMT 2022
-2022-03-29 07:15:04.324  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:16:03.883 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:16:04.000  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:16:04.162 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:16:04.271  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:16:04.307  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:16:04 MMT 2022
-2022-03-29 07:16:04.307  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:17:03.887 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:17:04.025  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:17:04.145 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:17:04.252  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:17:04.291  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:17:04 MMT 2022
-2022-03-29 07:17:04.291  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:18:03.887 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:18:04.013  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:18:04.128 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:18:04.241  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:18:04.292  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:18:04 MMT 2022
-2022-03-29 07:18:04.292  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:19:03.961 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:19:04.091  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:19:04.415 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:19:04.526  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:19:04.563  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:19:04 MMT 2022
-2022-03-29 07:19:04.563  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:20:03.889 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:20:04.070  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:20:04.203 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:20:04.324  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:20:04.362  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:20:04 MMT 2022
-2022-03-29 07:20:04.362  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:21:03.899 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:21:04.162  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:21:04.345 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:21:04.459  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:21:04.507  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:21:04 MMT 2022
-2022-03-29 07:21:04.507  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:21:05.753 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:21:05.882  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:21:05.972  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-28 00:43:41.45, createdUserId=10264, updatedDate=2022-03-29 00:14:55.06, updatedUserId=10264, version=54, isDelete=false)
-2022-03-29 07:21:05.997  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.DailyStepService           : Old daily step : null
-2022-03-29 07:22:05.097 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:22:05.241  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:22:05.386 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:22:05.510  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:22:05.548  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:22:05 MMT 2022
-2022-03-29 07:22:05.548  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:23:05.102 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:23:05.241  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:23:05.673 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:23:05.780  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:23:05.816  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:23:05 MMT 2022
-2022-03-29 07:23:05.816  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:24:53.083 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:24:53.212  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:24:53.483 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:24:53.597  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:24:53.635  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:24:53 MMT 2022
-2022-03-29 07:24:53.635  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:26:07.216 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:26:07.402  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:26:07.653 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:26:07.803  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:26:07.850  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:26:07 MMT 2022
-2022-03-29 07:26:07.850  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:27:06.683 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:27:06.817  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:27:07.027 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:27:07.147  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:27:07.189  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:27:07 MMT 2022
-2022-03-29 07:27:07.190  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:28:06.655 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:28:06.772  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:28:07.031 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:28:07.139  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:28:07.181  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:28:07 MMT 2022
-2022-03-29 07:28:07.181  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:29:06.675 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:29:06.858  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:29:07.228 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:29:07.356  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:29:07.396  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:29:07 MMT 2022
-2022-03-29 07:29:07.396  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:30:06.657 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:30:06.796  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:30:06.916 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:30:07.026  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:30:07.082  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:30:07 MMT 2022
-2022-03-29 07:30:07.082  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:31:06.679 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:31:06.800  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:31:06.933 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:31:07.086  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:31:07.125  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:31:07 MMT 2022
-2022-03-29 07:31:07.125  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:32:06.672 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:32:06.822  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:32:07.176 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:32:07.288  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:32:07.340  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:32:07 MMT 2022
-2022-03-29 07:32:07.340  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:33:06.680 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:33:07.022  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:33:07.397 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:33:07.511  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:33:07.560  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:33:07 MMT 2022
-2022-03-29 07:33:07.560  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:34:06.684 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:34:06.813  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:34:07.090 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:34:07.194  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:34:07.234  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:34:07 MMT 2022
-2022-03-29 07:34:07.234  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:35:06.672 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:35:06.798  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:35:07.098 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:35:07.213  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:35:07.252  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:35:07 MMT 2022
-2022-03-29 07:35:07.252  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:36:06.670 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:36:06.830  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:36:06.961 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:36:07.084  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:36:07.130  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:36:07 MMT 2022
-2022-03-29 07:36:07.130  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:37:06.747 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:37:06.891  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:37:07.017 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:37:07.120  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:37:07.157  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:37:07 MMT 2022
-2022-03-29 07:37:07.157  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:38:06.680 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:38:06.806  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:38:06.974 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:38:07.090  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:38:07.128  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:38:07 MMT 2022
-2022-03-29 07:38:07.128  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:39:06.685 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:39:06.831  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:39:06.998 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:39:07.139  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:39:07.180  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:39:07 MMT 2022
-2022-03-29 07:39:07.180  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:40:06.692 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:40:06.870  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:40:07.215 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:40:07.345  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:40:07.386  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:40:07 MMT 2022
-2022-03-29 07:40:07.386  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:58:00.635 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:58:00.782  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:58:00.967 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:58:01.098  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:58:01.151  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:58:01 MMT 2022
-2022-03-29 07:58:01.151  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:58:59.983 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:59:00.226  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:59:00.408 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 07:59:00.573  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 07:59:00.629  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 07:59:00 MMT 2022
-2022-03-29 07:59:00.629  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 07:59:59.983 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:00:00.244  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:00:00.618 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:00:00.797  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:00:00.939  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:00:00 MMT 2022
-2022-03-29 08:00:00.939  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:00:59.982 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:01:00.214  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:01:00.491 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:01:00.649  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:01:00.696  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:01:00 MMT 2022
-2022-03-29 08:01:00.696  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:01:59.982 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:02:00.218  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:02:00.485 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:02:00.652  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:02:00.699  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:02:00 MMT 2022
-2022-03-29 08:02:00.699  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:02:59.983 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:03:00.228  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:03:00.397 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:03:00.535  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:03:00.606  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:03:00 MMT 2022
-2022-03-29 08:03:00.606  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:03:59.991 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:04:00.226  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:04:00.481 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:04:00.630  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:04:00.680  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:04:00 MMT 2022
-2022-03-29 08:04:00.681  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:04:59.998 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:05:00.388  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:05:01.079 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:05:01.226  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:05:01.291  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:05:01 MMT 2022
-2022-03-29 08:05:01.291  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:05:59.997 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:06:00.238  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:06:00.710 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:06:00.857  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:06:00.902  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:06:00 MMT 2022
-2022-03-29 08:06:00.902  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:07:00.018 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:07:00.246  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:07:00.503 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:07:00.651  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:07:00.703  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:07:00 MMT 2022
-2022-03-29 08:07:00.703  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:08:00.022 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:08:00.243  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:08:00.528 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:08:00.693  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:08:00.743  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:08:00 MMT 2022
-2022-03-29 08:08:00.743  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:09:00.084 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:09:00.309  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:09:00.540 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:09:00.702  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:09:00.749  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:09:00 MMT 2022
-2022-03-29 08:09:00.749  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:10:00.084 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:10:00.314  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:10:00.467 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:10:00.684  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:10:00.760  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:10:00 MMT 2022
-2022-03-29 08:10:00.760  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:11:00.087 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:11:00.285  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:11:00.548 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:11:00.710  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:11:00.777  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:11:00 MMT 2022
-2022-03-29 08:11:00.777  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:12:00.092 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:12:00.318  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:12:00.746 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:12:00.894  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:12:00.955  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:12:00 MMT 2022
-2022-03-29 08:12:00.957  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:13:00.028 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:13:00.310  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:13:00.545 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:13:00.699  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:13:00.756  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:13:00 MMT 2022
-2022-03-29 08:13:00.756  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:14:00.023 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:14:00.213  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:14:00.376 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:14:00.522  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:14:00.576  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:14:00 MMT 2022
-2022-03-29 08:14:00.576  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:15:00.090 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:15:00.386  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:15:00.656 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:15:00.819  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:15:00.877  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:15:00 MMT 2022
-2022-03-29 08:15:00.877  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:16:00.034 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:16:00.301  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:16:00.485 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:16:00.659  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:16:00.730  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:16:00 MMT 2022
-2022-03-29 08:16:00.730  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:17:00.106 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:17:00.355  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:17:00.508 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:17:00.661  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:17:00.712  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:17:00 MMT 2022
-2022-03-29 08:17:00.712  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:18:00.038 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:18:00.270  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:18:00.687 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:18:00.831  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:18:00.888  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:18:00 MMT 2022
-2022-03-29 08:18:00.888  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:19:00.129 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:19:00.316  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:19:00.802 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:19:00.940  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:19:01.000  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:19:01 MMT 2022
-2022-03-29 08:19:01.000  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:21:21.221 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:21:21.494  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:21:21.858 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:21:21.997  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:21:22.053  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:21:22 MMT 2022
-2022-03-29 08:21:22.053  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:22:20.239 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:22:20.384  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:22:20.514 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:22:20.657  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:22:20.705  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:22:20 MMT 2022
-2022-03-29 08:22:20.706  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:23:20.248 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:23:20.413  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:23:20.557 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:23:20.692  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:23:20.744  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:23:20 MMT 2022
-2022-03-29 08:23:20.744  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:24:20.241 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:24:20.420  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:24:20.630 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:24:20.768  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:24:20.818  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:24:20 MMT 2022
-2022-03-29 08:24:20.818  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:25:20.255 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:25:20.415  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:25:20.824 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:25:20.969  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:25:21.017  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:25:21 MMT 2022
-2022-03-29 08:25:21.017  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:26:20.244 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:26:20.519  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:26:20.707 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:26:20.853  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:26:20.909  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:26:20 MMT 2022
-2022-03-29 08:26:20.909  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:27:20.241 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:27:20.400  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:27:20.589 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:27:20.750  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:27:20.802  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:27:20 MMT 2022
-2022-03-29 08:27:20.802  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:28:42.742 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:28:42.906  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:28:43.105 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:28:43.294  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:28:43.384  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:28:43 MMT 2022
-2022-03-29 08:28:43.384  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:30:56.184 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:30:56.356  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:30:56.675 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:30:56.808  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:30:56.854  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:30:56 MMT 2022
-2022-03-29 08:30:56.854  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:31:55.360 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:31:55.498  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:31:55.765 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:31:55.998  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:31:56.059  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:31:56 MMT 2022
-2022-03-29 08:31:56.059  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:34:21.390 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:34:21.524  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:34:21.657 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:34:21.797  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:34:21.856  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:34:21 MMT 2022
-2022-03-29 08:34:21.856  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:35:20.851 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:35:21.011  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:35:21.280 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:35:21.417  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:35:21.492  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:35:21 MMT 2022
-2022-03-29 08:35:21.492  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:39:13.361 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:39:13.499  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:39:13.747 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:39:13.871  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:39:13.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:39:13 MMT 2022
-2022-03-29 08:39:13.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:40:46.955 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:40:47.098  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:40:47.232 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:40:47.362  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:40:47.413  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:40:47 MMT 2022
-2022-03-29 08:40:47.414  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:42:14.000 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:42:16.283  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:42:16.358  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-28 00:43:41.45, createdUserId=10264, updatedDate=2022-03-29 07:21:05.972, updatedUserId=10264, version=55, isDelete=false)
-2022-03-29 08:42:16.389  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-29 07:21:05.997, createdUserId=10264, updatedDate=null, updatedUserId=0, version=0, isDelete=false)
-2022-03-29 08:44:28.950 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:44:29.142  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:44:29.336 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:44:29.492  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:44:29.547  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:44:29 MMT 2022
-2022-03-29 08:44:29.547  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:47:26.231 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:47:26.532  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:47:26.728 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:47:26.877  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:47:26.938  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:47:26 MMT 2022
-2022-03-29 08:47:26.938  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:48:38.224 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:48:38.491  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:48:38.728 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:48:38.919  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:48:38.982  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:48:38 MMT 2022
-2022-03-29 08:48:38.983  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:50:11.655 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:50:11.820  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:50:11.980 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:50:12.151  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:50:12.208  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:50:12 MMT 2022
-2022-03-29 08:50:12.208  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:51:27.586 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:51:27.752  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:51:27.957 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:51:28.086  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:51:28.142  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:51:28 MMT 2022
-2022-03-29 08:51:28.142  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:52:27.005 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:52:27.165  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:52:27.338 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:52:27.484  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:52:27.536  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:52:27 MMT 2022
-2022-03-29 08:52:27.536  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:53:27.004 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:53:27.152  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:53:27.339 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:53:27.465  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:53:27.517  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:53:27 MMT 2022
-2022-03-29 08:53:27.517  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:54:27.006 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:54:27.243  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:54:27.429 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:54:27.576  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:54:27.624  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:54:27 MMT 2022
-2022-03-29 08:54:27.624  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:55:27.285 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:55:27.468  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:55:27.655 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:55:27.795  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:55:27.846  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:55:27 MMT 2022
-2022-03-29 08:55:27.846  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:56:22.257 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:22.581  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:22.658  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-28 12:20:40.103, createdUserId=10283, updatedDate=2022-03-28 16:48:16.683, updatedUserId=10283, version=4, isDelete=false)
-2022-03-29 08:56:23.152  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.DailyStepService           : Old daily step : null
-2022-03-29 08:56:23.900 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:24.027  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:24.087  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:56:24 MMT 2022
-2022-03-29 08:56:24.087  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:56:27.337 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:27.517  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:56:27.686 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:27.843  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:56:27.897  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:56:27 MMT 2022
-2022-03-29 08:56:27.897  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:56:47.360 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.398 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.527  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:47.736 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.745 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.744 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.748 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.754 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.831 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.924  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:47.933  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.ChallengeRestController      : ====== Start getChallengeList API =====
-2022-03-29 08:56:47.940  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Request) : {"challengeTypeId":1,"features":0,"challengeId":null}
-2022-03-29 08:56:47.941  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:47.944 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.956 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:47.970  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.ChallengeRestController      : ====== Start getChallengeList API =====
-2022-03-29 08:56:47.970  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Request) : {"challengeTypeId":0,"features":1,"challengeId":null}
-2022-03-29 08:56:47.971  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:48.074  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.ChallengeRestController      : Member Id : 10283
-2022-03-29 08:56:48.075  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.ChallengeRestController      : Member Name : Sai Han  Lin Aung
-2022-03-29 08:56:48.084  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.ChallengeRestController      : ====== Start getChallengeList API =====
-2022-03-29 08:56:48.084  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Request) : {"challengeTypeId":2,"features":0,"challengeId":null}
-2022-03-29 08:56:48.085  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:48.106  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.ChallengeRestController      : Member Id : 10283
-2022-03-29 08:56:48.106  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.ChallengeRestController      : Member Name : Sai Han  Lin Aung
-2022-03-29 08:56:48.159  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.ChallengeRestController      : ====== Start getChallengeList API =====
-2022-03-29 08:56:48.159  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Request) : {"challengeTypeId":10,"features":0,"challengeId":null}
-2022-03-29 08:56:48.160  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:48.206  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.ChallengeRestController      : Member Id : 10283
-2022-03-29 08:56:48.206  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.ChallengeRestController      : Member Name : Sai Han  Lin Aung
-2022-03-29 08:56:48.241  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.ChallengeRestController      : ====== Start getChallengeList API =====
-2022-03-29 08:56:48.241  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Request) : {"challengeTypeId":3,"features":0,"challengeId":null}
-2022-03-29 08:56:48.241  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:48.239  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.ChallengeRestController      : Member Id : 10283
-2022-03-29 08:56:48.245  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.ChallengeRestController      : Member Name : Sai Han  Lin Aung
-2022-03-29 08:56:48.313  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.ChallengeRestController      : Member Id : 10283
-2022-03-29 08:56:48.313  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.ChallengeRestController      : Member Name : Sai Han  Lin Aung
-2022-03-29 08:56:49.752 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:49.861  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:49.925  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:56:49 MMT 2022
-2022-03-29 08:56:49.926  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:56:51.248  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Get Challenge List By ChallengeType : 7
-2022-03-29 08:56:51.248  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Total Challenge Count : 7
-2022-03-29 08:56:51.249  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Member Tier : Primary Walker
-2022-03-29 08:56:51.249  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Start Challenge Object Mapping
-2022-03-29 08:56:51.249  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : HAKABAO RAZI
-2022-03-29 08:56:51.250  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Phonyin Razi
-2022-03-29 08:56:51.250  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Mount Taung Wine
-2022-03-29 08:56:51.250  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test 1MB challenge
-2022-03-29 08:56:51.252  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img Testing Monthly One
-2022-03-29 08:56:51.256  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img testing monthly two
-2022-03-29 08:56:51.259  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Teddy Monthly Test
-2022-03-29 08:56:51.264  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.ChallengeService           : End Challenge Object Mapping
-2022-03-29 08:56:51.282  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Response) : {"timestamp":1648520811265,"responseCode":200,"responseDescription":"Success!","data":[{"id":7,"name":"HAKABAO RAZI","description":"finish 2,500 steps per days for 20 days in a month!","totalPeriodDays":30,"dailyMiniumSteps":2500,"totalSteps":50000,"earnPoint":500,"actualDay":20,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Hkakabo Razi.png","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2021-01-10","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":117,"name":"Phonyin Razi","description":"finish 100 steps per days for 20 days in a month!","totalPeriodDays":30,"dailyMiniumSteps":9000,"totalSteps":2,"earnPoint":1212,"actualDay":20,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mount Phonyin Razi.png","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2021-04-09","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":118,"name":"Mount Taung Wine","description":"finish 200 steps per days for 20 days in a month!","totalPeriodDays":30,"dailyMiniumSteps":200,"totalSteps":4000,"earnPoint":400,"actualDay":20,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mount Taung Wine (1).png","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2021-04-09","challengeEndDate":"2022-03-30","special":false,"enable":true},{"id":149,"name":"Test 1MB challenge","description":"finish 200 steps per days for 20 days in a month!","totalPeriodDays":30,"dailyMiniumSteps":200,"totalSteps":4000,"earnPoint":400,"actualDay":20,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/1MB.jpg","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2022-02-22","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":186,"name":"Img Testing Monthly One","description":"50 steps 1 MB","totalPeriodDays":30,"dailyMiniumSteps":50,"totalSteps":1500,"earnPoint":150,"actualDay":30,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_13181_25032022102042.jpg","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2022-03-25","challengeEndDate":"2022-06-30","special":false,"enable":true},{"id":189,"name":"Img testing monthly two","description":"1MB 50 steps","totalPeriodDays":6,"dailyMiniumSteps":50,"totalSteps":300,"earnPoint":30,"actualDay":6,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_67308_28032022120710.jpg","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2022-03-28","challengeEndDate":"2022-06-30","special":false,"enable":true},{"id":191,"name":"Teddy Monthly Test","description":"Image Size - 1MB (Edited with 500KB image)","totalPeriodDays":30,"dailyMiniumSteps":100,"totalSteps":2500,"earnPoint":250,"actualDay":25,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_72282_28032022225141.jpg","challengeTypeId":3,"challengeTypeName":"Monthly Challenge","requirements":null,"challengeStartDate":"2022-03-28","challengeEndDate":"2022-04-28","special":false,"enable":true}],"memberChallenge":null}
-2022-03-29 08:56:51.282  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.ChallengeRestController      : ====== End getChallengeList API =====
-2022-03-29 08:56:51.578  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Get Challenge List By ChallengeType : 8
-2022-03-29 08:56:51.578  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Total Challenge Count : 8
-2022-03-29 08:56:51.579  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Member Tier : Primary Walker
-2022-03-29 08:56:51.579  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Start Challenge Object Mapping
-2022-03-29 08:56:51.579  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Natma
-2022-03-29 08:56:51.580  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Naga Hill
-2022-03-29 08:56:51.580  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Popa
-2022-03-29 08:56:51.581  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : UAT Weekly Test 1 Challenge
-2022-03-29 08:56:51.584  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : UAT Weekly Test 2 Challenge
-2022-03-29 08:56:51.587  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : img testing weekly 1
-2022-03-29 08:56:51.589  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : 1MB Picture Weekly Challenge Testing
-2022-03-29 08:56:51.591  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img testing weekly 2
-2022-03-29 08:56:51.595  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.ChallengeService           : End Challenge Object Mapping
-2022-03-29 08:56:51.599  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Response) : {"timestamp":1648520811597,"responseCode":200,"responseDescription":"Success!","data":[{"id":99,"name":"Natma","description":"finish 3,000 steps per day for 5 days in a week!","totalPeriodDays":7,"dailyMiniumSteps":2000,"totalSteps":10000,"earnPoint":1000,"actualDay":5,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mount Nattaung.png","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2021-04-09","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":101,"name":"Naga Hill","description":"finish 3,000 steps per day for 5 days in a week!","totalPeriodDays":7,"dailyMiniumSteps":3000,"totalSteps":15000,"earnPoint":2500,"actualDay":5,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mandalay Hill.jpeg","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2022-03-01","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":142,"name":"Popa","description":"","totalPeriodDays":7,"dailyMiniumSteps":300,"totalSteps":1500,"earnPoint":150,"actualDay":5,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mount Popa - Taungkelet.png","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2021-06-18","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":145,"name":"UAT Weekly Test 1 Challenge","description":"finish 10 steps per day for 2 days in a week","totalPeriodDays":2,"dailyMiniumSteps":10,"totalSteps":20,"earnPoint":2,"actualDay":2,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_12479_18032022170046.jpg","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2022-02-14","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":146,"name":"UAT Weekly Test 2 Challenge","description":"finish 500 steps per day for 2 days in a week","totalPeriodDays":2,"dailyMiniumSteps":500,"totalSteps":1000,"earnPoint":100,"actualDay":2,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/1MB.jpg","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2022-02-14","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":157,"name":"img testing weekly 1","description":"img testing with 0.5 MB","totalPeriodDays":7,"dailyMiniumSteps":50,"totalSteps":350,"earnPoint":35,"actualDay":7,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_39343_25032022101701.jpg","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2022-03-18","challengeEndDate":"2022-06-30","special":false,"enable":true},{"id":180,"name":"1MB Picture Weekly Challenge Testing","description":"Picture size - 1.09MB (edited image of 500KB)","totalPeriodDays":7,"dailyMiniumSteps":100,"totalSteps":400,"earnPoint":40,"actualDay":4,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_69429_24032022172417.png","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2022-03-24","challengeEndDate":"2022-03-30","special":false,"enable":true},{"id":185,"name":"Img testing weekly 2","description":"50 steps 2 MB","totalPeriodDays":1,"dailyMiniumSteps":50,"totalSteps":50,"earnPoint":5,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_13427_25032022095859.jpg","challengeTypeId":2,"challengeTypeName":"Weekly Challenge","requirements":null,"challengeStartDate":"2022-03-25","challengeEndDate":"2022-05-31","special":false,"enable":true}],"memberChallenge":null}
-2022-03-29 08:56:51.599  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.ChallengeRestController      : ====== End getChallengeList API =====
-2022-03-29 08:56:51.899  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Get Special Challenge List By ChallengeType : 7
-2022-03-29 08:56:51.899  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Total Challenge Count : 7
-2022-03-29 08:56:51.901  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Member Tier : Primary Walker
-2022-03-29 08:56:51.901  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Start Challenge Object Mapping
-2022-03-29 08:56:51.901  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : 50% OFF Sunday brunch voucher at Melia
-2022-03-29 08:56:51.913 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:56:51.932  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Get Challenge List By ChallengeType : 11
-2022-03-29 08:56:51.932  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Total Challenge Count : 11
-2022-03-29 08:56:51.934  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Member Tier : Primary Walker
-2022-03-29 08:56:51.934  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Start Challenge Object Mapping
-2022-03-29 08:56:51.934  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : 50% OFF Sunday brunch voucher at Melia
-2022-03-29 08:56:52.010  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Free Private Yoga Lesson
-2022-03-29 08:56:52.031  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Free Private Yoga Lesson
-2022-03-29 08:56:52.102  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : 30% Off Staycation at Pan Pacific Hotel
-2022-03-29 08:56:52.106  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:56:52.108  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test Noti for Special Challenge
-2022-03-29 08:56:52.119  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : 30% Off Staycation at Pan Pacific Hotel
-2022-03-29 08:56:52.121  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : UAT Special Test 1 Challenge
-2022-03-29 08:56:52.124  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : UAT Special Test 1 Challenge
-2022-03-29 08:56:52.186  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test Special Challenge
-2022-03-29 08:56:52.197  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test Special Challenge
-2022-03-29 08:56:52.208  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img testing special 1
-2022-03-29 08:56:52.213  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Free Vacation Challenge
-2022-03-29 08:56:52.232  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-29 08:56:23.152, createdUserId=10283, updatedDate=null, updatedUserId=0, version=0, isDelete=false)
-2022-03-29 08:56:52.238  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img testing special 2
-2022-03-29 08:56:52.300  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Free Vacation Challenge
-2022-03-29 08:56:52.309  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.ChallengeService           : End Challenge Object Mapping
-2022-03-29 08:56:52.328  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img testing special 2
-2022-03-29 08:56:52.378  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Response) : {"timestamp":1648520812338,"responseCode":200,"responseDescription":"Success!","data":[{"id":120,"name":"50% OFF Sunday brunch voucher at Melia","description":"Take 8,000 steps within a week to unlock 50% off Sunday Brunch Boucher at Melia!","totalPeriodDays":7,"dailyMiniumSteps":1600,"totalSteps":8000,"earnPoint":0,"actualDay":5,"rewardType":"Premium Discounts","rewardName":"50% Off Sunday brunch voucher at Melia","rewardDescription":"unlock 50% off Sunday Brunch Voucher at Melia!","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Yoga.png","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-04-10","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":122,"name":"Free Private Yoga Lesson","description":"Take 50 steps within a day to unlock free private yoga lesson","totalPeriodDays":1,"dailyMiniumSteps":10,"totalSteps":10,"earnPoint":0,"actualDay":1,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Yoga.png","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-04-10","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":123,"name":"30% Off Staycation at Pan Pacific Hotel","description":"Take 1000 steps within a day to unlock Staycation at Pan Pacific Hotel","totalPeriodDays":1,"dailyMiniumSteps":600,"totalSteps":600,"earnPoint":0,"actualDay":1,"rewardType":"Premium Discounts","rewardName":"30% Off Staycation at Pan Pacific Hotel","rewardDescription":"unlock 30% OFF Staycation at Pan Pacific Hotel!","hightlight":"30% Off","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mandalay Hill.jpeg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-04-10","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":148,"name":"UAT Special Test 1 Challenge","description":"finish 10 steps within one day","totalPeriodDays":1,"dailyMiniumSteps":10,"totalSteps":10,"earnPoint":0,"actualDay":1,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/1mb.png","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-02-15","challengeEndDate":"2022-03-30","special":true,"enable":true},{"id":161,"name":"Test Special Challenge","description":"","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":0,"actualDay":1,"rewardType":"Travel","rewardName":"Free Vacation Mergui Archipelago","rewardDescription":"unlock free vacation to Mergui Archipelago","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_35333_18032022123458.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-18","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":176,"name":"Free Vacation Challenge","description":"","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":0,"actualDay":1,"rewardType":"Travel","rewardName":"Free Vacation Mergui Archipelago","rewardDescription":"unlock free vacation to Mergui Archipelago","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_9957_23032022222608.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-23","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":187,"name":"Img testing special 2","description":"1 MB 50 steps","totalPeriodDays":8,"dailyMiniumSteps":50,"totalSteps":400,"earnPoint":0,"actualDay":8,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_14800_25032022102956.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-25","challengeEndDate":"2022-05-31","special":true,"enable":true}],"memberChallenge":null}
-2022-03-29 08:56:52.378  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.ChallengeRestController      : ====== End getChallengeList API =====
-2022-03-29 08:56:52.415  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img loading test special 1
-2022-03-29 08:56:52.447  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Teddy Special Test
-2022-03-29 08:56:52.457  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.ChallengeService           : End Challenge Object Mapping
-2022-03-29 08:56:52.460  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Response) : {"timestamp":1648520812458,"responseCode":200,"responseDescription":"Success!","data":[{"id":120,"name":"50% OFF Sunday brunch voucher at Melia","description":"Take 8,000 steps within a week to unlock 50% off Sunday Brunch Boucher at Melia!","totalPeriodDays":7,"dailyMiniumSteps":1600,"totalSteps":8000,"earnPoint":0,"actualDay":5,"rewardType":"Premium Discounts","rewardName":"50% Off Sunday brunch voucher at Melia","rewardDescription":"unlock 50% off Sunday Brunch Voucher at Melia!","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Yoga.png","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-04-10","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":122,"name":"Free Private Yoga Lesson","description":"Take 50 steps within a day to unlock free private yoga lesson","totalPeriodDays":1,"dailyMiniumSteps":10,"totalSteps":10,"earnPoint":0,"actualDay":1,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Yoga.png","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-04-10","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":123,"name":"30% Off Staycation at Pan Pacific Hotel","description":"Take 1000 steps within a day to unlock Staycation at Pan Pacific Hotel","totalPeriodDays":1,"dailyMiniumSteps":600,"totalSteps":600,"earnPoint":0,"actualDay":1,"rewardType":"Premium Discounts","rewardName":"30% Off Staycation at Pan Pacific Hotel","rewardDescription":"unlock 30% OFF Staycation at Pan Pacific Hotel!","hightlight":"30% Off","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mandalay Hill.jpeg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-04-10","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":139,"name":"Test Noti for Special Challenge","description":"Testing Noti","totalPeriodDays":3,"dailyMiniumSteps":50,"totalSteps":100,"earnPoint":0,"actualDay":2,"rewardType":"Premium Discounts","rewardName":"Free Night Stay at Governor's Residence","rewardDescription":"unlock free night stay at Governor's Residence","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/1MB.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2021-06-04","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":148,"name":"UAT Special Test 1 Challenge","description":"finish 10 steps within one day","totalPeriodDays":1,"dailyMiniumSteps":10,"totalSteps":10,"earnPoint":0,"actualDay":1,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/1mb.png","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-02-15","challengeEndDate":"2022-03-30","special":true,"enable":true},{"id":161,"name":"Test Special Challenge","description":"","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":0,"actualDay":1,"rewardType":"Travel","rewardName":"Free Vacation Mergui Archipelago","rewardDescription":"unlock free vacation to Mergui Archipelago","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_35333_18032022123458.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-18","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":169,"name":"Img testing special 1","description":"steps 50 2MB","totalPeriodDays":10,"dailyMiniumSteps":50,"totalSteps":500,"earnPoint":0,"actualDay":10,"rewardType":"Premium Discounts","rewardName":"50% Off Sunday brunch voucher at Melia","rewardDescription":"unlock 50% off Sunday Brunch Voucher at Melia!","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_39091_21032022134042.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-21","challengeEndDate":"2022-07-31","special":true,"enable":true},{"id":176,"name":"Free Vacation Challenge","description":"","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":0,"actualDay":1,"rewardType":"Travel","rewardName":"Free Vacation Mergui Archipelago","rewardDescription":"unlock free vacation to Mergui Archipelago","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_9957_23032022222608.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-23","challengeEndDate":"2022-03-31","special":true,"enable":true},{"id":187,"name":"Img testing special 2","description":"1 MB 50 steps","totalPeriodDays":8,"dailyMiniumSteps":50,"totalSteps":400,"earnPoint":0,"actualDay":8,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_14800_25032022102956.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-25","challengeEndDate":"2022-05-31","special":true,"enable":true},{"id":188,"name":"Img loading test special 1","description":"special 1","totalPeriodDays":7,"dailyMiniumSteps":50,"totalSteps":350,"earnPoint":0,"actualDay":7,"rewardType":"Freebies","rewardName":"Free Private Yoga Lesson","rewardDescription":"unlock free private yoga lesson","hightlight":"","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_40118_28032022120344.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-28","challengeEndDate":"2022-06-30","special":true,"enable":true},{"id":192,"name":"Teddy Special Test","description":"Image size - 1MB (Edited with 500KB image)","totalPeriodDays":7,"dailyMiniumSteps":10000,"totalSteps":40000,"earnPoint":0,"actualDay":4,"rewardType":"Freebies","rewardName":"Free Chicken Wing Bites","rewardDescription":"","hightlight":"Free","photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_75636_28032022225745.jpg","challengeTypeId":10,"challengeTypeName":"Special Challenge","requirements":["Primary Walker"],"challengeStartDate":"2022-03-28","challengeEndDate":"2022-04-04","special":true,"enable":true}],"memberChallenge":null}
-2022-03-29 08:56:52.460  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.ChallengeRestController      : ====== End getChallengeList API =====
-2022-03-29 08:56:53.130  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Get Challenge List By ChallengeType : 18
-2022-03-29 08:56:53.130  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Total Challenge Count : 18
-2022-03-29 08:56:53.131  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Member Tier : Primary Walker
-2022-03-29 08:56:53.131  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Start Challenge Object Mapping
-2022-03-29 08:56:53.131  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : ZWEGABIN
-2022-03-29 08:56:53.132  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : KYAIKTIYO
-2022-03-29 08:56:53.132  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Mandalay Hill
-2022-03-29 08:56:53.133  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test Noti Daily Challenge
-2022-03-29 08:56:53.133  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test Level Up Challenge
-2022-03-29 08:56:53.134  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test daily challenge noti
-2022-03-29 08:56:53.135  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img loading test 1
-2022-03-29 08:56:53.136  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img Loading Test 2
-2022-03-29 08:56:53.138  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img loading test 4
-2022-03-29 08:56:53.140  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Test Daily Challenge Edited image 500KB
-2022-03-29 08:56:53.141  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Refresh Test challenge
-2022-03-29 08:56:53.142  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Refresh Test 1
-2022-03-29 08:56:53.142  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : 1MB Picture Challenge Testing
-2022-03-29 08:56:53.143  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : daily test noti
-2022-03-29 08:56:53.144  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : new test
-2022-03-29 08:56:53.144  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img loading test Daily 3
-2022-03-29 08:56:53.146  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Img loading test daily 5
-2022-03-29 08:56:53.148  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : Challenge Name : Teddy Daily Test
-2022-03-29 08:56:53.149  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.ChallengeService           : End Challenge Object Mapping
-2022-03-29 08:56:53.155  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.ChallengeRestController      : getChallengeList API (Response) : {"timestamp":1648520813150,"responseCode":200,"responseDescription":"Success!","data":[{"id":2,"name":"ZWEGABIN","description":"finish 1,00 steps within one day!\r\n","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":10,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/Mount Victoria (1).png","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2021-01-10","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":152,"name":"Img loading test 1","description":"testing for img loading with picture size  1.19 MB","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":10,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_66559_17032022155606.jpg","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-17","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":153,"name":"Img Loading Test 2","description":"Testing for img loading with picture size 1.19 MB - 100 steps","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":10,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_53632_17032022160209.jpg","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-17","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":155,"name":"Img loading test 4","description":"testing for img loading with picture size 2.05 MB - steps 150","totalPeriodDays":1,"dailyMiniumSteps":150,"totalSteps":150,"earnPoint":15,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_4917_17032022161310.jpg","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-17","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":162,"name":"Test Daily Challenge Edited image 500KB","description":"","totalPeriodDays":1,"dailyMiniumSteps":100,"totalSteps":100,"earnPoint":100,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_81530_24032022171852.png","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-18","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":174,"name":"Refresh Test challenge","description":"Refresh Test challenge","totalPeriodDays":1,"dailyMiniumSteps":200,"totalSteps":200,"earnPoint":20,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_90992_22032022142212.png","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-22","challengeEndDate":"2022-04-30","special":false,"enable":true},{"id":175,"name":"Refresh Test 1","description":"Refresh Test 1","totalPeriodDays":1,"dailyMiniumSteps":200,"totalSteps":200,"earnPoint":20,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_49423_22032022144825.png","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-22","challengeEndDate":"2022-04-30","special":false,"enable":true},{"id":181,"name":"daily test noti","description":"daily test noti","totalPeriodDays":1,"dailyMiniumSteps":200,"totalSteps":200,"earnPoint":20,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_86634_24032022234030.jpg","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-24","challengeEndDate":"2022-03-31","special":false,"enable":true},{"id":183,"name":"Img loading test Daily 3","description":"1 MB 50 steps","totalPeriodDays":1,"dailyMiniumSteps":50,"totalSteps":50,"earnPoint":5,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_19080_25032022090453.jpg","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-25","challengeEndDate":"2022-05-31","special":false,"enable":true},{"id":184,"name":"Img loading test daily 5","description":"50 steps 1MB","totalPeriodDays":1,"dailyMiniumSteps":50,"totalSteps":50,"earnPoint":5,"actualDay":1,"rewardType":null,"rewardName":null,"rewardDescription":null,"hightlight":null,"photo":null,"photoUrl":"https://uat.aia.com.mm/api/photos/challenge/challenge_55956_25032022092036.jpg","challengeTypeId":1,"challengeTypeName":"Daily Challenge","requirements":null,"challengeStartDate":"2022-03-25","challengeEndDate":"2022-05-31","special":false,"enable":true}],"memberChallenge":null}
-2022-03-29 08:56:53.155  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.ChallengeRestController      : ====== End getChallengeList API =====
-2022-03-29 08:57:00.979 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:57:01.105  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:57:01.162  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:57:01 MMT 2022
-2022-03-29 08:57:01.162  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:57:50.851 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:57:51.026  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:57:51.199 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:57:51.366  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:57:51.422  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:57:51 MMT 2022
-2022-03-29 08:57:51.423  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:57:53.157 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:57:53.261  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:57:53.328  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.DailyStepService           : Old daily step : AbstractVersionTrack(createdDate=2022-03-29 08:56:23.152, createdUserId=10283, updatedDate=2022-03-29 08:56:52.236, updatedUserId=10283, version=1, isDelete=false)
-2022-03-29 08:57:54.923 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:57:55.031  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 001541.126e87f88b024021ad6a295109949f03.0509
-2022-03-29 08:57:55.087  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:57:55 MMT 2022
-2022-03-29 08:57:55.087  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 08:59:11.950 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:59:12.191  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:59:12.359 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 08:59:12.500  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 08:59:12.560  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 08:59:12 MMT 2022
-2022-03-29 08:59:12.560  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:00:16.733 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:00:16.883  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:00:17.227 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:00:17.363  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:00:17.414  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:00:17 MMT 2022
-2022-03-29 09:00:17.414  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:01:12.784 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:01:12.981  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:01:13.302 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:01:13.448  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:01:13.500  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:01:13 MMT 2022
-2022-03-29 09:01:13.502  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:02:13.963 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:02:14.105  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:02:14.323 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:02:14.497  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:02:14.557  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:02:14 MMT 2022
-2022-03-29 09:02:14.557  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:03:13.644 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:03:13.808  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:03:14.036 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:03:14.193  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:03:14.242  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:03:14 MMT 2022
-2022-03-29 09:03:14.242  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:06:51.915 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:06:52.091  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:06:52.295 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:06:52.434  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:06:52.486  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:06:52 MMT 2022
-2022-03-29 09:06:52.486  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:08:56.021 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:08:56.173  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:08:56.387 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:08:56.525  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:08:56.569  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:08:56 MMT 2022
-2022-03-29 09:08:56.569  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:13:08.256 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:13:08.426  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:13:08.710 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:13:08.853  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:13:08.906  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:13:08 MMT 2022
-2022-03-29 09:13:08.906  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:16:16.990 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:16:17.166  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:16:17.363 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:16:17.493  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:16:17.538  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:16:17 MMT 2022
-2022-03-29 09:16:17.538  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:19:03.701 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:19:03.931  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-313] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:19:04.157 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:19:04.321  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:19:04.391  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:19:04 MMT 2022
-2022-03-29 09:19:04.392  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:20:07.126 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:20:07.308  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-312] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:20:07.487 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:20:07.622  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:20:07.674  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:20:07 MMT 2022
-2022-03-29 09:20:07.674  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-318] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:21:06.630 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:21:06.810  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-314] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:21:07.114 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:21:07.246  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:21:07.301  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:21:07 MMT 2022
-2022-03-29 09:21:07.301  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:22:23.527 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:22:23.699  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-327] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:22:23.874 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:22:24.012  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:22:24.063  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:22:24 MMT 2022
-2022-03-29 09:22:24.063  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-320] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:23:24.736 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:23:24.895  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-328] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:23:25.080 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:23:25.219  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:23:25.272  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:23:25 MMT 2022
-2022-03-29 09:23:25.272  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-324] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
-2022-03-29 09:25:35.202 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:25:35.360  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-325] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:25:35.567 DEBUG wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.c.JwtAuthenticationFilter      : security context was null, so authorizating user
-2022-03-29 09:25:35.731  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.s.i.MemberService              : SUB : 09250072364
-2022-03-29 09:25:35.792  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Date:::::Tue Mar 29 09:25:35 MMT 2022
-2022-03-29 09:25:35.792  INFO wellness-api-8599b447f4-cfxrt --- [o-8081-exec-322] c.a.a.w.w.u.CommonUtil                   : Response JsonData:::::myChallenge:::::200:::::Success!
+2022-04-27 14:27:14.034  INFO wellness-api-6b599f8b89-ffjkc --- [           main] c.a.a.w.w.WellnessApiApplication         : Starting WellnessApiApplication v0.0.1 using Java 1.8.0_322 on wellness-api-6b599f8b89-ffjkc with PID 1 (/WellnessAPI-0.0.1.jar started by user in /)
+2022-04-27 14:27:14.077 DEBUG wellness-api-6b599f8b89-ffjkc --- [           main] c.a.a.w.w.WellnessApiApplication         : Running with Spring Boot v2.5.12, Spring v5.3.18
+2022-04-27 14:27:14.079  INFO wellness-api-6b599f8b89-ffjkc --- [           main] c.a.a.w.w.WellnessApiApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 14:27:15.668  INFO wellness-api-6b599f8b89-ffjkc --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-27 14:27:16.292  INFO wellness-api-6b599f8b89-ffjkc --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 614 ms. Found 26 JPA repository interfaces.
+2022-04-27 14:27:17.701  INFO wellness-api-6b599f8b89-ffjkc --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@484970b0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-27 14:27:17.709  INFO wellness-api-6b599f8b89-ffjkc --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-27 14:27:20.089  INFO wellness-api-6b599f8b89-ffjkc --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2022-04-27 14:27:20.163  INFO wellness-api-6b599f8b89-ffjkc --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-27 14:27:20.167  INFO wellness-api-6b599f8b89-ffjkc --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-04-27 14:27:20.172  INFO wellness-api-6b599f8b89-ffjkc --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-04-27 14:27:20.582  INFO wellness-api-6b599f8b89-ffjkc --- [           main] o.a.c.c.C.[.[.[/api]                     : Initializing Spring embedded WebApplicationContext
+2022-04-27 14:27:20.590  INFO wellness-api-6b599f8b89-ffjkc --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6264 ms
+2022-04-27 14:27:21.426 DEBUG wellness-api-6b599f8b89-ffjkc --- [           main] c.a.a.w.w.c.LoggingFilter                : Filter 'logFilter' configured for use
+2022-04-27 14:27:21.587  INFO wellness-api-6b599f8b89-ffjkc --- [pool-2-thread-1] c.m.a.a.AuthenticationAuthority          : [Correlation ID: d33e63b6-b01e-4784-afc8-838147438358] Instance discovery was successful
+2022-04-27 14:27:21.922  WARN wellness-api-6b599f8b89-ffjkc --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getDataSource' defined in class path resource [com/aia/ace/wellness/webapi/config/DataSourceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: com/nimbusds/oauth2/sdk/http/CommonContentTypes
+2022-04-27 14:27:21.927  INFO wellness-api-6b599f8b89-ffjkc --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2022-04-27 14:27:21.996  INFO wellness-api-6b599f8b89-ffjkc --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-27 14:27:22.068 ERROR wellness-api-6b599f8b89-ffjkc --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getDataSource' defined in class path resource [com/aia/ace/wellness/webapi/config/DataSourceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: com/nimbusds/oauth2/sdk/http/CommonContentTypes
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:448)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.aia.ace.wellness.webapi.WellnessApiApplication.main(WellnessApiApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getDataSource' defined in class path resource [com/aia/ace/wellness/webapi/config/DataSourceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: com/nimbusds/oauth2/sdk/http/CommonContentTypes
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 29 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: com/nimbusds/oauth2/sdk/http/CommonContentTypes
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 43 more
+Caused by: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: com/nimbusds/oauth2/sdk/http/CommonContentTypes
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig.getAccessToken(DataSourceConfig.java:69)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig.getDataSource(DataSourceConfig.java:47)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig$$EnhancerBySpringCGLIB$$ec405d90.CGLIB$getDataSource$0(<generated>)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig$$EnhancerBySpringCGLIB$$ec405d90$$FastClassBySpringCGLIB$$3e32d752.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig$$EnhancerBySpringCGLIB$$ec405d90.getDataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 44 more
+Caused by: java.lang.NoClassDefFoundError: com/nimbusds/oauth2/sdk/http/CommonContentTypes
+	at com.microsoft.aad.adal4j.AdalTokenRequest.toOAuthRequest(AdalTokenRequest.java:158)
+	at com.microsoft.aad.adal4j.AdalTokenRequest.executeOAuthRequestAndProcessResponse(AdalTokenRequest.java:86)
+	at com.microsoft.aad.adal4j.AuthenticationContext.acquireTokenCommon(AuthenticationContext.java:930)
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:70)
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:38)
+	at com.microsoft.aad.adal4j.AdalCallable.call(AdalCallable.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.nimbusds.oauth2.sdk.http.CommonContentTypes
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:151)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 10 more
